@@ -16,7 +16,7 @@
   padding: $toast-padding;
   border-radius: $toast-border-radius;
   opacity: 0;
-  animation: fadein 3s;
+  animation: fadein $toast-length;
   animation-fill-mode: forwards;
   box-shadow: $toast-shadow;
 }
