@@ -3,13 +3,14 @@ $toast-box-top: 0 !default;
 $toast-box-right: 0 !default;
 $toast-box-left: unset !default;
 $toast-box-bottom: unset !default;
+$toast-box-transform: unset !default;
 
 $toast-text-color: #f5f5f5 !default;
 $toast-background-color: #2b2b2b !default;
 $toast-border-radius: 3px !default;
 $toast-padding: 10px 14px !default;
 $toast-shadow: 1px 3px 5px #adadad !default;
-$toast-length: 2s;
+$toast-length: 2s !default;
 
 @keyframes fadein {
   0% {
