@@ -12,8 +12,20 @@ $toast-shadow: 1px 3px 5px #adadad !default;
 $toast-length: 2s;
 
 @keyframes fadein {
-  0% { opacity: 0; }
-  33%   { opacity: 1; }
-  90%   { opacity: 1; }
-  100% { opacity: 0; }
+  0% {
+    opacity: 0;
+    margin-top: 20px;
+  }
+  33% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+  90%   {
+    opacity: 1;
+    margin-top: 0px;
+  }
+  100% {
+    opacity: 0;
+    margin-top: -20px;
+  }
 }
