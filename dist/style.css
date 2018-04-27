@@ -1,0 +1,28 @@
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  33% {
+    opacity: 1; }
+  90% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+#vsToastContainer {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: unset;
+  bottom: unset;
+  margin: 20px; }
+
+#vsToastContainer .vsToast {
+  color: #f5f5f5;
+  background-color: #2b2b2b;
+  padding: 10px 14px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: fadein 3s;
+  animation-fill-mode: forwards;
+  box-shadow: 1px 3px 5px #adadad; }

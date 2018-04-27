@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Very Small Toast</title>
+    <style>
+      body {
+        font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Very Small Toast</h1>
+    <input id='inputText' placeholder='message'/>
+    <button onclick='showToast()'>Toast</button>
+
+    <script>
+      function showToast() {
+        var text = document.querySelector('#inputText').value;
+        $vsToast(text);
+      }
+    </script>
+    <script src='dist/dev.js'></script>
+  </body>
+</html>

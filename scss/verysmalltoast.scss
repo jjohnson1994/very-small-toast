@@ -1,0 +1,22 @@
+@import 'variables';
+
+#vsToastContainer {
+  box-sizing: border-box;
+  position: absolute;
+  top: $toast-box-top;
+  right: $toast-box-right;
+  left: $toast-box-left;
+  bottom: $toast-box-bottom;
+  margin: $toast-box-margin;
+}
+
+#vsToastContainer .vsToast {
+  color: $toast-text-color;
+  background-color: $toast-background-color;
+  padding: $toast-padding;
+  border-radius: $toast-border-radius;
+  opacity: 0;
+  animation: fadein 3s;
+  animation-fill-mode: forwards;
+  box-shadow: $toast-shadow;
+}
