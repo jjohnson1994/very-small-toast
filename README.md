@@ -1,6 +1,6 @@
 # Very Small Toast
 
-A very small JS library for showing toasts.
+A very small JS library for showing toasts, written in 496 bytes or CSS and 996 bytes of JS.
 
 ## How to
 
@@ -37,3 +37,4 @@ To import SCSS and make customising a lot easier, add this to your main .scss
 `@import 'toast-variable-overrides';` will be a file with variables overwriting the ones using in `verysmalltoast.scss`.
 
 ### Customising
+Check inside `_variables.scss` to see what variables are available. All values used are available in `_variables.scss`, just set them in your custom `_toast-variable-overrides.scss`.
