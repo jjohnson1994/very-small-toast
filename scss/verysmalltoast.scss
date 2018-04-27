@@ -13,6 +13,7 @@
 
 #vsToastContainer .vsToast {
   color: $toast-text-color;
+  font-size: $toast-font-size;
   background-color: $toast-background-color;
   padding: $toast-padding;
   border-radius: $toast-border-radius;

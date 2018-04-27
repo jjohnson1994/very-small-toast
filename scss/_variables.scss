@@ -12,6 +12,7 @@ $toast-padding: 10px 14px !default;
 $toast-shadow: 1px 3px 5px #adadad !default;
 $toast-length: 2s !default;
 $toast-animation: fadein;
+$toast-font-size: 1rem;
 
 @keyframes fadein {
   0% {
