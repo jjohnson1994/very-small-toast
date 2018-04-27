@@ -12,7 +12,11 @@
     "toast",
     "alert"
   ],
-  "author": "James Johnson",
+  "author": {
+    "name": "James Johnson",
+    "email": "james.09.1994@gmail.com",
+    "url": "http://jamesliveshere.co"
+  },
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^0.28.11",
