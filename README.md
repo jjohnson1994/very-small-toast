@@ -19,7 +19,6 @@ In you main JS file:
   $toast('Hello Toast');
 ```
 The `$toast` method is added to `window` so can be called from anywhere.
-
 #### Import CSS
 You can either import the CSS or SCSS, if you want to customise anything import the SCSS.
 

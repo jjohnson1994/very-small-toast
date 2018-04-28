@@ -1,6 +1,6 @@
 {
   "name": "very-small-toast",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A very small JS toast/ alert",
   "main": "dist/build.js",
   "scripts": {
@@ -14,8 +14,11 @@
   ],
   "author": {
     "name": "James Johnson",
-    "email": "james.09.1994@gmail.com",
     "url": "http://jamesliveshere.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjohnson1994/very-small-toast"
   },
   "license": "ISC",
   "devDependencies": {
