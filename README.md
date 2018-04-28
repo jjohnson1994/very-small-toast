@@ -29,12 +29,16 @@ To import CSS, in you index.html add
 ```
 
 To import SCSS and make customising a lot easier, add this to your main .scss
+``` css
+  @import 'very-small-toast-overrides';
+  @import '~very-small-toast/scss/verysmalltoast';
 ```
-  @import 'toast-variable-overrides';
-  @import '~very-small-toast/scss/verysmalltoast.scss';
+or in your main JS file
+``` js
+import 'very-small-toast/scss/verysmalltoast.scss'
 ```
 
-`@import 'toast-variable-overrides';` will be a file with variables overwriting the ones using in `verysmalltoast.scss`.
+`@import 'very-small-toast-overrides';` will be a file with variables overwriting the ones using in `verysmalltoast.scss`.
 
 ### Customising
 Check inside `_variables.scss` to see what variables are available. All values used are available in `_variables.scss`, just set them in your custom `_toast-variable-overrides.scss`.
