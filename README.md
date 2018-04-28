@@ -1,4 +1,4 @@
-![hello](./hello.png)
+![hello](https://raw.githubusercontent.com/jjohnson1994/very-small-toast/master/hello.png)
 
 A very small JS library for showing toasts, written in 496 bytes or CSS and 996 bytes of JS.
 
