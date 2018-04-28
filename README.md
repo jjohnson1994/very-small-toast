@@ -16,9 +16,9 @@ In you main JS file:
 ``` js
   import Toast from 'very-small-toast';
   ...
-  $vsToast('Hello Toast');
+  $toast('Hello Toast');
 ```
-The `$vsToast` method is added to `window` so can be called from anywhere.
+The `$toast` method is added to `window` so can be called from anywhere.
 
 #### Import CSS
 You can either import the CSS or SCSS, if you want to customise anything import the SCSS.

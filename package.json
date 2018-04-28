@@ -1,6 +1,6 @@
 {
   "name": "very-small-toast",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A very small JS toast/ alert",
   "main": "dist/build.js",
   "scripts": {
