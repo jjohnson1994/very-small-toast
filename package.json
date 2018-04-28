@@ -4,7 +4,7 @@
   "description": "A very small JS toast/ alert",
   "main": "dist/build.js",
   "scripts": {
-    "dev": "webpack --config webpack.dev.js && webpack-dev-server --open --config webpack.dev.js",
+    "dev": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,8 +19,12 @@
   },
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
     "css-loader": "^0.28.11",
     "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",

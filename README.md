@@ -1,4 +1,4 @@
-# Very Small Toast
+![hello](./hello.png)
 
 A very small JS library for showing toasts, written in 496 bytes or CSS and 996 bytes of JS.
 

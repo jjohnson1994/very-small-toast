@@ -11,10 +11,10 @@ $toast-border-radius: 3px !default;
 $toast-padding: 10px 14px !default;
 $toast-shadow: 1px 3px 5px #adadad !default;
 $toast-length: 2s !default;
-$toast-animation: fadein;
+$toast-animation: toastFadeIn;
 $toast-font-size: 1rem;
 
-@keyframes fadein {
+@keyframes toastFadeIn {
   0% {
     opacity: 0;
     margin-top: 20px;

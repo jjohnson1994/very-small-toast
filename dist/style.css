@@ -1,12 +1,16 @@
-@keyframes fadein {
+@keyframes toastFadeIn {
   0% {
-    opacity: 0; }
+    opacity: 0;
+    margin-top: 20px; }
   33% {
-    opacity: 1; }
+    opacity: 1;
+    margin-top: 0px; }
   90% {
-    opacity: 1; }
+    opacity: 1;
+    margin-top: 0px; }
   100% {
-    opacity: 0; } }
+    opacity: 0;
+    margin-top: -20px; } }
 
 #vsToastContainer {
   box-sizing: border-box;
@@ -15,14 +19,16 @@
   right: 0;
   left: unset;
   bottom: unset;
-  margin: 20px; }
+  margin: 20px;
+  transform: unset; }
 
 #vsToastContainer .vsToast {
   color: #f5f5f5;
+  font-size: 1rem;
   background-color: #2b2b2b;
   padding: 10px 14px;
   border-radius: 3px;
   opacity: 0;
-  animation: fadein 3s;
+  animation: toastFadeIn 2s;
   animation-fill-mode: forwards;
   box-shadow: 1px 3px 5px #adadad; }
