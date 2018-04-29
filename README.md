@@ -1,6 +1,6 @@
 ![hello](https://raw.githubusercontent.com/jjohnson1994/very-small-toast/master/hello.png)
 
-A very small JS library for showing toasts, written in 496 bytes or CSS and 996 bytes of JS.
+A very small JS library for showing toasts, written in 496 bytes of CSS and 996 bytes of JS.
 
 ## How to
 
