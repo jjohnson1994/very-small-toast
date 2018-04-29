@@ -24,7 +24,7 @@ You can either import the CSS or SCSS, if you want to customise anything import 
 
 To import CSS, in you index.html add
 ``` html
-<link rel='stylesheet' href='node_modules/very-small-toast/dist/main.css'/>
+<link rel='stylesheet' href='node_modules/very-small-toast/dist/style.css'/>
 ```
 
 To import SCSS and make customising a lot easier, add this to your main .scss
