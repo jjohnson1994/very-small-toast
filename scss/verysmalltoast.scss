@@ -9,6 +9,7 @@
   bottom: $toast-box-bottom;
   margin: $toast-box-margin;
   transform: $toast-box-transform;
+  pointer-events: none;
 }
 
 #vsToastContainer .vsToast {

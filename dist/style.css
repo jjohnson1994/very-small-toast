@@ -20,7 +20,8 @@
   left: unset;
   bottom: unset;
   margin: 20px;
-  transform: unset; }
+  transform: unset;
+  pointer-events: none; }
 
 #vsToastContainer .vsToast {
   color: #f5f5f5;
