@@ -1,6 +1,6 @@
 ![hello](https://raw.githubusercontent.com/jjohnson1994/very-small-toast/master/hello.png)
 
-A very small JS library for showing toasts, written in 496 bytes or CSS and 996 bytes of JS.
+A very small JS library for showing toasts, written in 496 bytes of CSS and 996 bytes of JS.
 
 ## How to
 
@@ -24,7 +24,7 @@ You can either import the CSS or SCSS, if you want to customise anything import 
 
 To import CSS, in you index.html add
 ``` html
-<link rel='stylesheet' href='node_modules/very-small-toast/dist/main.css'/>
+<link rel='stylesheet' href='node_modules/very-small-toast/dist/style.css'/>
 ```
 
 To import SCSS and make customising a lot easier, add this to your main .scss
